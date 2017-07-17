@@ -241,7 +241,7 @@ app/                     --> all the source code of the app (along with unit tes
   app.animations.js      --> hooks for running JS animations with `ngAnimate`
   app.config.js          --> app-wide configuration of Angular services
   app.css                --> default stylesheet
-  app.module.js          --> the main app module
+  app.module.ajs.js          --> the main app module
   index.html             --> app layout file (the main HTML template file of the app)
 
 e2e-tests/               --> config and source files for e2e tests
