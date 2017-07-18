@@ -17,7 +17,7 @@ var PhoneDetailController = (function () {
 }());
 angular.
     module('phoneDetail').
-    component('phoneDetail', { 
+    component('phoneDetail', {
     templateUrl: 'phone-detail/phone-detail.template.html',
     controller: PhoneDetailController
 });
