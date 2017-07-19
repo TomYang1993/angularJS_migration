@@ -1,5 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+
 var PhoneDetailController = (function () {
     function PhoneDetailController($routeParams, phone) {
         var _this = this;
