@@ -17,7 +17,6 @@ export interface PhoneData {
 export class Phone {
     constructor(private http: Http) { }
     query(): Observable<PhoneData[]> {
-        console.log("in service")
         return this.http.get(`phones/phones.json`)
             .map((res: Response) => res.json());
     }

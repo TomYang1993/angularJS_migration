@@ -18,7 +18,6 @@ var Phone = (function () {
         this.http = http;
     }
     Phone.prototype.query = function () {
-        console.log("in service");
         return this.http.get("phones/phones.json")
             .map(function (res) { return res.json(); });
     };
